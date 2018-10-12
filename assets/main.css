@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+html, body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 1em;
+}
+
+body {
+  background-color: white;
+  font-family: 'Open Sans', serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+}
+
+p {
+  margin-bottom: 1.3em;
+}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.157em;
+}
+
+h2 {
+  font-size: 2.369em;
+}
+
+h3 {
+  font-size: 1.777em;
+}
+
+h4 {
+  font-size: 1.333em;
+}
+
+small, .font_small {
+  font-size: 0.75em;
+}
+
+body nav {
+  width: 100vw;
+}
+
+body nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+  grid-template-columns: repeat(6, 1fr);
+}
+
+body nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.5em;
+  margin: 0 0.5em;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+body nav ul li:first-child {
+  text-align: left;
+}
+
+body nav ul li:last-child {
+  text-align: right;
+}
+
+body nav ul li a {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+body nav ul li a:visited {
+  color: green;
+}
+
+body nav ul li a:hover {
+  border-radius: 1em;
+}
+
+body nav ul li a:active {
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */
